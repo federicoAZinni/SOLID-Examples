@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Solid_examples</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Single Responsability\OpenClosed Principle\**" />
+    <EmbeddedResource Remove="Single Responsability\OpenClosed Principle\**" />
+    <None Remove="Single Responsability\OpenClosed Principle\**" />
+  </ItemGroup>
+
+</Project>
